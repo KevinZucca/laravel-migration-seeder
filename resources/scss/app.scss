@@ -1,1 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    font-family: 'Caveat', cursive;
+    font-family: 'Sono', sans-serif;
+}
+
+table {
+
+    max-width: 1000px;
+    margin: 200px auto;
+
+    background-color: rgba(0, 0, 0, 0.868);
+    color: rgba(218, 150, 54, 0.801);
+
+    th, td {
+        border: 1px solid rgb(218, 150, 54);
+    }
+
+    th {
+        padding: 5px;
+    }
+
+    td {
+        padding: 10px;
+    }
+}
