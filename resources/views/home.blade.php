@@ -50,7 +50,6 @@
                         <td>{{$singleTrain->is_canceled == '1' ? 'Yes' : 'No'}}</td>
                     </tr>
                 @endforeach
-           
             </tbody>
         </table>
     </div>

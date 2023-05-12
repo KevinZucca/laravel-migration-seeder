@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('agency', 30);
             $table->string('start_station', 30);
             $table->string('arrival_station', 30);
-            $table->time('start_time');
-            $table->time('arrival_time');
+            $table->dateTime('start_time');
+            $table->dateTime('arrival_time');
             $table->mediumInteger('train_code');
             $table->tinyInteger('carriages_number')->nullable();
             $table->boolean('is_in_time')->nullable();
